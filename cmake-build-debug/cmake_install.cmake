@@ -1,4 +1,4 @@
-# Install script for directory: /home/lukas/CLionProjects/PhD/alif_pass_isochrone
+# Install script for directory: /home/lukas/CLionProjects/PhD/isochrone-adaptive-lif-intervals
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lukas/CLionProjects/PhD/alif_pass_isochrone/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lukas/CLionProjects/PhD/isochrone-adaptive-lif-intervals/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

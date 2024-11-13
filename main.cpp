@@ -127,7 +127,6 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-
     // The following two lines and the latter two are actually redundant but illustrate what is happening
     int max_spikes = 50000;
     double max_t  = 20000;
@@ -192,7 +191,7 @@ int main(int argc, char *argv[]) {
     char iso_parameter[200];
     std::sprintf(iso_parameter, "_mu%.1f_taua%.1f_delta%.1f_phase%.2f", mu, tau_a, delta_a, phase);
 
-    std::string in_file_isochrone = std::string(homedir) + "/CLionProjects/PhD/alif_deterministic_isochrone/out/isochrone_very_flat" + iso_parameter + ".dat";
+    std::string in_file_isochrone = std::string(homedir) + "/Data/isochrone/isochrone" + iso_parameter + ".dat";
     std::ifstream file_isochrone(in_file_isochrone, std::ios_base::in);
 
     std::string line;
